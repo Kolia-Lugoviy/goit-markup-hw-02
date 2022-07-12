@@ -1,15 +1,31 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+ul, ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.hover:hover, 
+.focus:focus {
+    color: #2196F3;
+}
 
+.hover-h:hover, 
+.focus-h:focus {
+    color: #000000;
+}
+
+/*header */
 .header-web{
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2px;
     letter-spacing: 0.03em;
     color: #000000;
-}
+    }
 .header-studio{
     font-weight: 500;
     font-size: 14px;
@@ -18,12 +34,14 @@ body{
     color: #2196F3;
 }
 
+
 .header-port-cont{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1px;
     letter-spacing: 0.02em;
 }
+
 
 .header-list{
     font-weight: 500;
@@ -32,15 +50,7 @@ body{
     letter-spacing: 0.02em
 }
 
-.section-title{
 
-
-background: #2F303A;
-}
-
-.studio{
-    color: #2196F3;
-}
 
 .header-tel{
     font-weight: 500;
@@ -57,46 +67,55 @@ background: #2F303A;
     letter-spacing: 0.02em;
     color: #2196F3;
 }
+/*header */
 
+.studio{
+    color: #2196F3;
+}
+
+.section-title{
+
+width: 1600px;
+height: 600px;
+left: 0px;
+top: 80px;
+background: #2F303A;
+    }
 .title{
+    position: absolute;
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 280px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.4px;
-    text-align: center;
+    line-height: 60px;
     
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
     color: #FFFFFF;
 
 }
 .button {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.9px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: #FFFFFF;
-    width: 200px;
-    height: 50px;
-    left: 700px;
-    top: 430px;
-    background: #2196F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-.button:hover,
-.button:focus{
-    color: green;
+position: absolute;
+width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
+color: #FFFFFF;
+background: #2196F3;
 }
 
+
 .list{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7px;
-
     letter-spacing: 0.03em;
-
     color: #757575;
 }
 .list-title{
@@ -108,6 +127,10 @@ background: #2F303A;
 
     color: #212121;
 }
+
+.section-work{
+    background: #F5F4FA;
+}
 .title-work{
     font-weight: 700;
     font-size: 36px;
@@ -116,11 +139,7 @@ background: #2F303A;
     letter-spacing: 0.03em;
 }
 .img{
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
+
 }
 .list-work{
     font-weight: 500;
@@ -141,7 +160,7 @@ background: #2F303A;
 .footer-address{
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7px;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
@@ -152,14 +171,14 @@ background: #2F303A;
 .footer-mail{
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 .footer-tel{
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 
@@ -167,7 +186,7 @@ background: #2F303A;
 /* footer */
 
 .header-web-white{
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2px;
@@ -175,7 +194,40 @@ background: #2F303A;
     color: #ffffff;
 }
 
+/*====== portfolio ======*/>
 
-.list-krapka{
-    list-style-type: none;
+.list-portfolio{
+font-size: 16px;
+lie-height: 1.6px;
+
+
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.list-portfolio-all{
+    background: #2196F3;
+    color: #ffffff;
+}
+
+.portfolio-application{
+font-weight: 700;
+font-size: 18px;
+line-height: 2px;
+letter-spacing: 0.06em;
+color: #212121;
+}
+
+.portfolio-application-plus{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.9px;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.hover-portfolio:hover, 
+.focus-portfolio:focus {
+    color: #ffffff;
+    background-color: #2196F3;
 }
